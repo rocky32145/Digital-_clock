@@ -1,0 +1,6 @@
+import time
+
+while True:
+    current_time = time.strftime("%A, %d %B %Y | %I:%M:%S %p")
+    print("📅🕒", current_time)
+    time.sleep(1)
